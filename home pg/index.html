@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo-title-container">
+            <div class="logo-box">
+            <svg style="enable-background:new 0 0 24 24;" version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="info"/><g id="icons"><g id="user"><ellipse cx="12" cy="8" rx="5" ry="6"/><path d="M21.8,19.1c-0.9-1.8-2.6-3.3-4.8-4.2c-0.6-0.2-1.3-0.2-1.8,0.1c-1,0.6-2,0.9-3.2,0.9s-2.2-0.3-3.2-0.9    C8.3,14.8,7.6,14.7,7,15c-2.2,0.9-3.9,2.4-4.8,4.2C1.5,20.5,2.6,22,4.1,22h15.8C21.4,22,22.5,20.5,21.8,19.1z"/></g></g></svg>
+            </div>
+            <h1>Welcome back</h1>
+        </div> 
+        <form action="\home pg\home.html" method="post">
+            <div class="input-box">
+            <input type="text" name="username" id="text" class="input-plc" placeholder="Username" required>
+            <i class="fa-solid fa-user"></i>
+        </div>
+<div class="input-box">
+    <input type="password" name="password" id="password" class="input-plc" placeholder="password" required>
+    <i class="fa-solid fa-key"></i>
+</div>
+<input type="submit" value="Login" name="login-btn" onclick="auth()">
+<P>Forgot password?
+<span>or</span>
+<a href="#" class="sign-link">Sign up</a>
+</P>
+        </form>
+    </div>
+    <script src="script.js">
+    </script>
+
+</body>
+</html>
